@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -30,7 +32,7 @@
             <span class="text-white font-medium">Rua dos Cedros 1001, São Luís</span>
 
             <div class="bg-green-600 px-4 py-1 rounded-lg mt-5" id="date-span">
-                <span class="text-white font-medium">Seg á Dom - 18:00 as 22:00</span>
+                <span class="text-white font-medium">Seg. á Dom. - 18:00 as 22:00</span>
             </div>
         </div>
     </header>
@@ -214,7 +216,7 @@
 
             <div id="cart-items" class="flex justify-between flex-col"></div>
 
-            <p class="font-bold">Total: R$<span id="cart-total">0.00</span></p>
+            <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
 
             <p class="font-bold mt-4">Endereço de entrega:</p>
             <input 
@@ -247,6 +249,7 @@
     </footer>
     <!-- End button cart footer -->
 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="./script.js"></script> <!-- Script JavaScript -->
 </body>
 </html>
